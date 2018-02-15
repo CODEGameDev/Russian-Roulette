@@ -173,12 +173,12 @@ function GiveAllPlayers()
 
 			for x, y in pairs(v:GetWeapons()) do
 				if y:GetPrintName() == "Russian Roulette" then
-					print(y)
-					v:SetActiveWeapon(y)
+					v:SelectWeapon(y:GetClass())
 				end
 			end
 
 			v:EmitSound( sound_next )
+      v:EmitSound( "russian.wav" )
 		end
 	end
 end
