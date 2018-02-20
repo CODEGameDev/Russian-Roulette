@@ -15,7 +15,7 @@ if CLIENT then
       desc = "TBATBATBA"
    };
 
-   SWEP.Icon = "vgui/ttt/icon_rrr"
+   SWEP.Icon = "vgui/ttt/icon_rrr.png"
 end
 
 SWEP.Base                  = "weapon_tttbase"
